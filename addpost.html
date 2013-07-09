@@ -1,0 +1,79 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Add a post</title>
+</head>
+<body>
+
+<form  enctype="multipart/form-data" action="addpost.php" method="POST">
+
+<p>
+	* Subcategory: <select name="Subcategory">
+		<option value="empty">Please select an item type</option>
+		<option value="books">Books</option>
+		<option value="electronics">Electronics</option>
+		<option value="household">Household</option>
+	</select>
+</p>
+
+<p>
+	* Location: <select name="Location">
+		<option value="empty">Please select your location</option>
+		<option value="cupertino">Cupertino</option>
+		<option value="mumbai">Mumbai</option>
+		<option value="stockholm">Stockholm</option>
+	</select>
+</p>
+<p>
+	* Title: <input type="text" size="100" name="Title" value="">
+</p>
+<p>
+	* Price: <input type="text" size="6" name="Price" value="">
+</p>
+<p>
+	* Description: <input type="textarea" name="Description" rows="10" cols="50" value="">
+</p>
+<p>
+	* Your Email: <input type="text" size="75" name="Email" value="">
+</p>
+<p>
+	* Type your Email again: <input type="text" size="75" name="Confirmemail" value="">
+</p>
+<p>
+	* I agree with the terms and conditions <input type="checkbox" name="Termsok" value=""> 
+</p>
+
+
+<p>If you want to add images to your post, please upload them here:</p>
+
+<p>
+<label for="image1"> Image 1 (max 5 MB): 
+<input type="hidden" name="MAX_FILE_SIZE" value="5242880" />
+<input type="file" name="image1" id="image1"><br>
+</p>
+<p>
+<label for="image2"> Image 2 (max 5 MB): 
+<input type="hidden" name="MAX_FILE_SIZE" value="5242880" />
+<input type="file" name="image2" id="image2"><br>
+</p>
+<p>
+<label for="image3"> Image 3 (max 5 MB): 
+<input type="hidden" name="MAX_FILE_SIZE" value="5242880" />
+<input type="file" name="image3" id="image3"><br>
+</p>
+<p>
+<label for="image4"> Image 4 (max 5 MB): 
+<input type="hidden" name="MAX_FILE_SIZE" value="5242880" />
+<input type="file" name="image4" id="image4"><br>
+</p>
+<p>
+<label for="image5"> Image 5 (max 5 MB): 
+<input type="hidden" name="MAX_FILE_SIZE" value="5242880" />
+<input type="file" name="image5" id="image5"><br>
+</p>
+
+<input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>
