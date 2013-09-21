@@ -1,25 +1,63 @@
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Registration</title>
+  <title>Add a review</title>
+  <meta http-equiv="content-language" content="en-us" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link href="css/styles.css" rel="stylesheet" media="screen" type="text/css" /><!--[if lte IE 6]>
+       <link href="css/styles_ie.css" rel="stylesheet" media="screen" type="text/css" />
+       <![endif]-->
 </head>
-<body>
-<html>
-<body>
 
-<form  enctype="multipart/form-data" action="createaccount.php" method="POST">
+<body id="brandsbody">
+  <div id="wrap">
+    <div id="header">
+      <h1>Campzz<a href="index.html" title="Home"></a></h1>
 
-<h1>Registration</h1>
-<p>Enter your email address:	<input type="text" size="75" name="Email" value=""></p>
-<p>Type it again: <input type="text" size="75" name="confirmEmail" value=""></p>
+      <ul>
+        <li><a href="index.html" title="Home">Home</a></li>
 
-<h2>Protect your information with a password</h2>
-<p>Enter a new password: <input type="text" size="75" name="Password" value=""></p>
-<p>Type it again: <input type="text" size="75" name="confirmPassword" value=""></p>
+        <li><a href="addpost.html" title="Add a review">Add a review</a></li>
 
-<input type="submit" value="Create account"/>
+        <li><a href="browse.html" title="Browse your reviews">Browse your reviews</a></li>
 
-</form>
+        <li><a href="signin.html" title="Sign in">Sign in</a></li>
+      </ul>
+    </div>
+    <hr />
 
+    <div id="content_brands">
+      <h2>Create an account</h2>
+
+      <form enctype="multipart/form-data" action="createaccount.php" method="post">
+        <h1>Registration</h1>
+
+        <p>Enter your email address: <input type="text" size="75" name="Email" value="" /></p>
+
+        <p>Type it again: <input type="text" size="75" name="confirmEmail" value="" /></p>
+
+        <h2>Protect your information with a password</h2>
+
+        <p>Enter a new password: <input type="text" size="75" name="Password" value="" /></p>
+
+        <p>Type it again: <input type="text" size="75" name="confirmPassword" value="" /></p><input type="submit" value="Create account" />
+      </form>
+      <hr />
+
+      <div id="footer">
+        <ul>
+          <li><a href="index.html" title="Home">Home</a></li>
+
+          <li><a href="addpost.html" title="Add a review">Add a review</a></li>
+
+          <li><a href="browse.html" title="Browse your reviews">Browse your reviews</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="liner"></div>
+  </div>
 </body>
 </html>

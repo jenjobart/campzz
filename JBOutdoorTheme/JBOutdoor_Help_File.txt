@@ -1,0 +1,35 @@
+--HELP FILE TEMPLATE--
+
+JBOutdoor Theme
+Created: 11/07/2008
+By: Jayme Blackmon
+Contact Info: jaymeblackmon.com
+
+Thank you for purchasing my theme.
+
+--TABLE OF CONTENTS--
+
+A) HTML Structure 
+B) CSS Files
+
+----------------------------------------------------------------------------------------------------------
+
+A) HTML Structure
+
+This theme is a fixed layout. The homepage is found in a file named index.html - the secondary page is found in a file named brands.html. On the seconary page, all of the information within the main content area is nested within a div with an id of "content_brands".
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+B) CSS
+
+I'm using two css files, styles.css (pertinent to all browsers except IE) and styles_ie.css (IE sensitive styles are contained here). These files contain some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file. 
+
+If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited. 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Once again, thank you so much for purchasing this theme. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section. 
+
+Jayme Blackmon

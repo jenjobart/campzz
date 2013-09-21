@@ -1,0 +1,5 @@
+/*						STYLES FOR IE						*/
+
+.picframe, #outdoor li, .type span	{
+	behavior: url(css/iepngfix.htc);
+}
